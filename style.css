@@ -1,4 +1,4 @@
-/* Reset */
+/* General styles */
 * {
     margin: 0;
     padding: 0;
@@ -6,16 +6,10 @@
 }
 
 body {
-    font-family: Arial, sans-serif;
-    background-color: #f5f5f5; /* Light mode */
+    font-family: 'Arial', sans-serif;
+    background-color: #ffffff;
     color: #333;
-    transition: all 0.3s ease;
-}
-
-/* Dark Mode */
-body.dark-mode {
-    background-color: #333;
-    color: #f5f5f5;
+    transition: background-color 0.5s, color 0.5s;
 }
 
 header {
@@ -23,27 +17,7 @@ header {
     justify-content: space-between;
     align-items: center;
     padding: 20px;
-    background-color: #f5f5f5;
     border-bottom: 1px solid #ddd;
-}
-
-header.dark-mode {
-    background-color: #444;
-}
-
-.nav-links {
-    list-style: none;
-    display: flex;
-    gap: 15px;
-}
-
-.nav-links a {
-    text-decoration: none;
-    color: #555;
-}
-
-.nav-links a:hover {
-    color: #000;
 }
 
 .logo {
@@ -56,11 +30,32 @@ header.dark-mode {
     margin-right: 10px;
 }
 
-.toggle-button {
-    cursor: pointer;
-    font-size: 20px;
+.logo span {
+    font-size: 1.5rem;
+    font-weight: bold;
 }
 
+.nav-links {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: #555;
+}
+
+.nav-links a:hover {
+    color: #000;
+}
+
+.toggle-button {
+    font-size: 20px;
+    cursor: pointer;
+}
+
+/* Main section */
 main {
     text-align: center;
     padding: 50px;
@@ -73,8 +68,8 @@ main {
 
 .intro h1 {
     font-size: 2.5rem;
+    color: #444;
     margin-bottom: 10px;
-    color: #a0522d; /* Match the brown color */
 }
 
 .intro p {
@@ -83,23 +78,45 @@ main {
 }
 
 .social-icons a {
-    text-decoration: none;
-    margin: 0 10px;
     font-size: 1.5rem;
+    margin: 0 15px;
+    text-decoration: none;
+    color: #666;
+}
+
+.buttons {
+    margin-top: 20px;
 }
 
 .buttons .btn {
-    display: inline-block;
-    margin: 10px;
+    margin: 0 10px;
     padding: 10px 20px;
-    background-color: #fff;
-    color: #a0522d;
-    border: 2px solid #a0522d;
+    border: 2px solid #444;
+    color: #444;
+    background-color: transparent;
     text-decoration: none;
     border-radius: 5px;
 }
 
 .buttons .btn:hover {
-    background-color: #a0522d;
+    background-color: #444;
+    color: #fff;
+}
+
+/* Dark mode styles */
+body.dark-mode {
+    background-color: #1c1c1c;
+    color: #f1f1f1;
+}
+
+header.dark-mode {
+    background-color: #1c1c1c;
+}
+
+.nav-links a.dark-mode {
+    color: #ccc;
+}
+
+.nav-links a:hover.dark-mode {
     color: #fff;
 }
