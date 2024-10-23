@@ -1,0 +1,78 @@
+/* Basic reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: white;
+    color: black;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+/* Navbar styles */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #333;
+    padding: 1rem;
+    color: white;
+}
+
+.nav-item {
+    color: white;
+    text-decoration: none;
+    margin-right: 1rem;
+    font-size: 1.2rem;
+}
+
+.nav-item:hover {
+    text-decoration: underline;
+}
+
+.search-bar {
+    padding: 0.5rem;
+    border-radius: 5px;
+    border: none;
+    margin-right: 1rem;
+}
+
+.dark-mode-btn {
+    background: none;
+    border: none;
+    color: white;
+    font-size: 1.5rem;
+    cursor: pointer;
+}
+
+.dark-mode-btn:hover {
+    color: #ffdd57;
+}
+
+/* Main content */
+main {
+    padding: 2rem;
+}
+
+.intro {
+    text-align: center;
+    margin-top: 2rem;
+}
+
+/* Dark mode styles */
+body.dark-mode {
+    background-color: #121212;
+    color: #f1f1f1;
+}
+
+body.dark-mode .navbar {
+    background-color: #444;
+}
+
+body.dark-mode .dark-mode-btn {
+    color: #ffdd57;
+}
