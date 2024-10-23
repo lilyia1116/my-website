@@ -1,78 +1,81 @@
-/* Basic reset */
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
 body {
     font-family: Arial, sans-serif;
-    line-height: 1.6;
-    background-color: white;
-    color: black;
-    transition: background-color 0.3s ease, color 0.3s ease;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0; /* Light background color */
+    color: #333; /* Light text color */
 }
 
-/* Navbar styles */
-.navbar {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    background-color: #333;
-    padding: 1rem;
+header {
+    background-color: #333; /* Dark background for header */
     color: white;
+    padding: 10px 0;
+    text-align: center; /* Center the navigation items */
 }
 
-.nav-item {
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0; /* Remove default margins */
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
     color: white;
     text-decoration: none;
-    margin-right: 1rem;
-    font-size: 1.2rem;
 }
 
-.nav-item:hover {
+nav ul li a:hover {
     text-decoration: underline;
 }
 
-.search-bar {
-    padding: 0.5rem;
-    border-radius: 5px;
-    border: none;
-    margin-right: 1rem;
+/* Styles for light mode */
+body.light-mode {
+    background-color: #f0f0f0; /* Light background color */
+    color: #333; /* Dark text color */
 }
 
-.dark-mode-btn {
-    background: none;
-    border: none;
+header.light-mode {
+    background-color: #333; /* Dark background for header */
     color: white;
-    font-size: 1.5rem;
-    cursor: pointer;
 }
 
-.dark-mode-btn:hover {
-    color: #ffdd57;
-}
-
-/* Main content */
-main {
-    padding: 2rem;
-}
-
-.intro {
-    text-align: center;
-    margin-top: 2rem;
-}
-
-/* Dark mode styles */
+/* Styles for dark mode */
 body.dark-mode {
-    background-color: #121212;
-    color: #f1f1f1;
+    background-color: #121212; /* Dark background color */
+    color: #e0e0e0; /* Light text color */
 }
 
-body.dark-mode .navbar {
-    background-color: #444;
+header.dark-mode {
+    background-color: #1e1e1e; /* Slightly lighter dark for header */
+    color: white;
 }
 
-body.dark-mode .dark-mode-btn {
-    color: #ffdd57;
+main {
+    padding: 20px;
+}
+
+.background-image {
+    width: 100%;
+    height: auto;
+    max-height: 400px; /* Adjust as needed */
+}
+
+footer {
+    text-align: center;
+    padding: 10px 0;
+    background-color: #333;
+    color: white;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+body {
+    background-image: url('Background.jpg'); /* 根据你的文件结构调整路径 */
+    background-size: cover; /* 使背景图覆盖整个页面 */
+    background-position: center; /* 背景图居中 */
 }

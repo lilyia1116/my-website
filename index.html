@@ -4,27 +4,69 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My Personal Website</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="styles.css"> <!-- Link to CSS file -->
 </head>
 <body>
-    <nav class="navbar">
-        <div class="nav-left">
-            <a href="index.html" class="nav-item">HOME</a>
-            <a href="tags.html" class="nav-item">TAGS</a>
-        </div>
-        <div class="nav-right">
-            <input type="text" class="search-bar" placeholder="Search...">
-            <button class="dark-mode-btn" id="darkModeToggle">🌙</button>
-        </div>
-    </nav>
-
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#home">HOME</a></li>
+                <li><a href="#outdoors">OUTDOORS</a></li>
+                <li><a href="#ideas">IDEAS</a></li>
+            </ul>
+        </nav>
+    </header>
+    
     <main>
-        <section class="intro">
-            <h1>Welcome to My Personal Website</h1>
-            <p>This is a brief introduction about me.</p>
+        <section id="home">
+        <h1>Lilyia Xiao</h1>
+            <h1>Lilyia Xiao</h1>
+            <p>An outdoor enthusiast</p>
+            <p>There are many ways to gain knowledge. One is to read a good book, another is to experience life.</p>
+            <p>Hello, my dear friend! Welcome to my world.</p>
+            <img src="Background.jpg" alt="Background Image" class="background-image">
+        </section>
+
+        <section id="outdoors">
+            <h1>Outdoor Records</h1>
+            <h2>Tags</h2>
+            <ul>
+                <li><a href="#china">China</a></li>
+                <li><a href="#xinjiang">Xinjiang</a></li>
+                <li><a href="#hongkong">Hong Kong</a></li>
+            </ul>
+
+            <article id="china">
+                <h3>Articles About China</h3>
+                <p>This is the content for your articles about China.</p>
+            </article>
+
+            <article id="xinjiang">
+                <h3>Articles About Xinjiang</h3>
+                <p>This is the content for your articles about Xinjiang.</p>
+            </article>
+
+            <article id="hongkong">
+                <h3>Articles About Hong Kong</h3>
+                <p>This is the content for your articles about Hong Kong.</p>
+            </article>
+        </section>
+
+        <section id="ideas">
+            <h1>My Ideas</h1>
+            <article>
+                <h3>Idea 1</h3>
+                <p>This is the content for your first idea.</p>
+            </article>
+            <article>
+                <h3>Idea 2</h3>
+                <p>This is the content for your second idea.</p>
+            </article>
         </section>
     </main>
 
-    <script src="script.js"></script>
+    <footer>
+        <p>© 2024 My Personal Website</p>
+    </footer>
 </body>
 </html>
