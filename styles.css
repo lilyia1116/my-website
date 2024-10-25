@@ -1,62 +1,52 @@
 body {
-    margin: 0;
     font-family: Arial, sans-serif;
-    transition: background-color 0.3s, color 0.3s;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
 }
 
 .navbar {
-    background-color: #333; /* 夜间模式背景色 */
-    color: white; /* 夜间模式字体色 */
+    background-color: #333;
+    color: #fff;
     display: flex;
-    justify-content: space-between;
-    align-items: center;
+    justify-content: flex-end;
     padding: 10px 20px;
 }
 
-.navbar ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    display: flex;
+.nav-links {
+    list-style: none;
 }
 
-.navbar li {
-    margin-right: 20px;
+.nav-links li {
+    display: inline;
+    margin-left: 20px;
 }
 
-.navbar a {
-    color: white; /* 夜间模式链接色 */
+.nav-links a {
+    color: #fff;
     text-decoration: none;
-    transition: color 0.3s;
+    transition: color 0.3s ease;
 }
 
-.navbar a:hover {
-    color: #ddd; /* 链接悬停时的颜色 */
+.nav-links a:hover {
+    color: #ddd;
 }
 
-button {
-    background-color: #555; /* 按钮背景色 */
-    color: white; /* 按钮字体色 */
-    border: none;
-    padding: 5px 10px;
-    cursor: pointer;
+.container {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
 }
 
-button:hover {
-    background-color: #777; /* 按钮悬停时的颜色 */
+h1 {
+    color: #333;
 }
 
-/* 白天模式样式 */
-body.light {
-    background-color: white;
-    color: black;
-}
-
-body.light .navbar {
-    background-color: #f2f2f2; /* 白天模式背景色 */
-    color: black; /* 白天模式字体色 */
-}
-
-body.light .navbar a {
-    color: black; /* 白天模式链接色 */
+p {
+    font-size: 16px;
+    line-height: 1.6;
 }
