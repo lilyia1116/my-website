@@ -1,56 +1,48 @@
-body {
-    font-family: Arial, sans-serif;
+body, html {
+    height: 100%;
     margin: 0;
-    padding: 0;
-    background-image: url('Background.jpg'); /* 替换为你的背景图片路径 */
+    font-family: Arial, sans-serif;
+    color: white;
+    background: url('Background.jpg') no-repeat center center fixed;
     background-size: cover;
-    background-position: center;
-    color: #333;
-}
-
-.navbar {
-    background-color: #fff; /* 白色背景 */
-    color: #000; /* 黑色文字 */
-    display: flex;
-    justify-content: flex-end;
-    padding: 10px 20px;
-    box-shadow: 0 2px 4px rgba(0,0,0,0.1); /* 添加阴影以提高可读性 */
-}
-
-.nav-links {
-    list-style: none;
-}
-
-.nav-links li {
-    display: inline;
-    margin-left: 20px;
-}
-
-.nav-links a {
-    color: #000;
-    text-decoration: none;
-    transition: color 0.3s ease;
-}
-
-.nav-links a:hover {
-    color: #555; /* 鼠标悬停时的颜色变化 */
 }
 
 .container {
-    max-width: 800px;
-    margin: 20px auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
     padding: 20px;
-    background-color: rgba(255, 255, 255, 0.8); /* 白色背景，略带透明度 */
-    border-radius: 8px;
-    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
-    color: #000; /* 黑色文字 */
 }
 
-h1, p {
-    color: #000;
+.content {
+    max-width: 50%;
 }
 
-p {
-    font-size: 16px;
-    line-height: 1.6;
+.content h1 {
+    font-size: 2.5em;
+    font-weight: bold;
+}
+
+.content p {
+    font-size: 1.2em;
+}
+
+.links {
+    max-width: 50%;
+    text-align: right;
+}
+
+.link {
+    display: inline-block;
+    margin: 10px 0;
+    padding: 10px;
+    background: rgba(255, 255, 255, 0.2);
+    color: white;
+    text-decoration: none;
+    transition: background 0.3s ease;
+}
+
+.link:hover {
+    background: rgba(255, 255, 255, 0.5);
 }
