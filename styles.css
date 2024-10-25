@@ -7,8 +7,8 @@ body, html {
     background-size: cover;
     display: flex;
     justify-content: center;
-    align-items: center;
-    text-align: center;
+    align-items: flex-end;
+    padding-bottom: 50px; /* Adjust the padding to position the introduction */
 }
 
 .container {
@@ -45,13 +45,23 @@ body, html {
     color: white;
     text-decoration: none;
     font-weight: bold;
+    text-transform: uppercase;
     font-size: 1.5em; /* 24px */
-    box-sizing: border-box; /* Include padding and border in the element's total width and height */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
     transition: background 0.3s ease;
 }
 
 .link-item:hover {
     background: rgba(255, 255, 255, 0.5);
+}
+
+.read-more {
+    font-weight: bold;
+    font-size: 0.8em; /* 12px */
+    margin-top: 10px;
 }
 
 /* Media query for smaller screens */
