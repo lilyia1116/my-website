@@ -1,3 +1,4 @@
-document.getElementById('modeToggle').addEventListener('click', function () {
-    document.body.classList.toggle('light');
+// script.js
+document.addEventListener('DOMContentLoaded', function() {
+    console.log('Welcome to PaperMod Demo!');
 });

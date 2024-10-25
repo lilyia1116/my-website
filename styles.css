@@ -2,16 +2,19 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #f4f4f4;
+    background-image: url('Background.jpg'); /* 替换为你的背景图片路径 */
+    background-size: cover;
+    background-position: center;
     color: #333;
 }
 
 .navbar {
-    background-color: #333;
-    color: #fff;
+    background-color: #fff; /* 白色背景 */
+    color: #000; /* 黑色文字 */
     display: flex;
     justify-content: flex-end;
     padding: 10px 20px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1); /* 添加阴影以提高可读性 */
 }
 
 .nav-links {
@@ -24,26 +27,27 @@ body {
 }
 
 .nav-links a {
-    color: #fff;
+    color: #000;
     text-decoration: none;
     transition: color 0.3s ease;
 }
 
 .nav-links a:hover {
-    color: #ddd;
+    color: #555; /* 鼠标悬停时的颜色变化 */
 }
 
 .container {
     max-width: 800px;
     margin: 20px auto;
     padding: 20px;
-    background-color: #fff;
+    background-color: rgba(255, 255, 255, 0.8); /* 白色背景，略带透明度 */
     border-radius: 8px;
     box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    color: #000; /* 黑色文字 */
 }
 
-h1 {
-    color: #333;
+h1, p {
+    color: #000;
 }
 
 p {
