@@ -5,84 +5,72 @@ body, html {
     color: white;
     background: url('Background.jpg') no-repeat center center fixed;
     background-size: cover;
-    font-size: 16px; /* Base font size */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
 }
 
 .container {
-    display: flex;
-    justify-content: space-between;
-    align-items: flex-start;
-    height: 100%;
-    padding: 20px;
+    width: 100%;
     max-width: 1200px; /* Maximum width of the container */
-    margin: 0 auto; /* Center the container */
+    padding: 20px;
 }
 
-.content, .links {
-    max-width: 50%;
-}
-
-.content h1 {
+.introduction h1 {
     font-size: 2.5em; /* 40px */
     font-weight: bold;
+    margin-bottom: 0.5em;
 }
 
-.content p {
-    font-size: 1.2em; /* 24px */
-    margin: 0.5em 0;
+.introduction p {
+    font-size: 1em; /* 16px */
+    margin-bottom: 0.5em;
 }
 
 .links {
     display: flex;
-    flex-direction: column;
-    align-items: flex-start;
+    justify-content: space-around;
+    width: 100%;
+    margin-top: 40px; /* Space between introduction and links */
 }
 
 .link-item {
     background: rgba(255, 255, 255, 0.2);
     padding: 20px;
-    margin-bottom: 20px;
+    width: 45%; /* Each link item takes up 45% of the width */
+    margin: 5px;
     text-align: center;
     border-radius: 5px;
-}
-
-.link-item h2 {
-    font-size: 1.5em; /* 24px */
+    color: white;
+    text-decoration: none;
     font-weight: bold;
-    text-transform: uppercase;
-    margin-bottom: 0.5em;
+    font-size: 1.5em; /* 24px */
+    box-sizing: border-box; /* Include padding and border in the element's total width and height */
+    transition: background 0.3s ease;
 }
 
-.link-item p {
-    font-size: 1em; /* 16px */
-    margin: 0;
+.link-item:hover {
+    background: rgba(255, 255, 255, 0.5);
 }
 
 /* Media query for smaller screens */
 @media (max-width: 768px) {
-    .container {
+    .introduction h1 {
+        font-size: 2em; /* 32px */
+    }
+
+    .introduction p {
+        font-size: 0.9em; /* 14px */
+    }
+
+    .links {
         flex-direction: column;
         align-items: center;
     }
 
-    .content, .links {
-        max-width: 100%;
-        text-align: center;
-    }
-
-    .content h1 {
-        font-size: 2em; /* 32px */
-    }
-
-    .content p {
-        font-size: 1em; /* 16px */
-    }
-
-    .link-item h2 {
-        font-size: 1.2em; /* 20px */
-    }
-
-    .link-item p {
-        font-size: 0.9em; /* 14px */
+    .link-item {
+        width: 80%; /* Each link item takes up 80% of the width on small screens */
+        margin: 10px 0;
     }
 }
