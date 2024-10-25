@@ -5,44 +5,84 @@ body, html {
     color: white;
     background: url('Background.jpg') no-repeat center center fixed;
     background-size: cover;
+    font-size: 16px; /* Base font size */
 }
 
 .container {
     display: flex;
     justify-content: space-between;
-    align-items: center;
+    align-items: flex-start;
     height: 100%;
     padding: 20px;
+    max-width: 1200px; /* Maximum width of the container */
+    margin: 0 auto; /* Center the container */
 }
 
-.content {
+.content, .links {
     max-width: 50%;
 }
 
 .content h1 {
-    font-size: 2.5em;
+    font-size: 2.5em; /* 40px */
     font-weight: bold;
 }
 
 .content p {
-    font-size: 1.2em;
+    font-size: 1.2em; /* 24px */
+    margin: 0.5em 0;
 }
 
 .links {
-    max-width: 50%;
-    text-align: right;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
 }
 
-.link {
-    display: inline-block;
-    margin: 10px 0;
-    padding: 10px;
+.link-item {
     background: rgba(255, 255, 255, 0.2);
-    color: white;
-    text-decoration: none;
-    transition: background 0.3s ease;
+    padding: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+    border-radius: 5px;
 }
 
-.link:hover {
-    background: rgba(255, 255, 255, 0.5);
+.link-item h2 {
+    font-size: 1.5em; /* 24px */
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-bottom: 0.5em;
+}
+
+.link-item p {
+    font-size: 1em; /* 16px */
+    margin: 0;
+}
+
+/* Media query for smaller screens */
+@media (max-width: 768px) {
+    .container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .content, .links {
+        max-width: 100%;
+        text-align: center;
+    }
+
+    .content h1 {
+        font-size: 2em; /* 32px */
+    }
+
+    .content p {
+        font-size: 1em; /* 16px */
+    }
+
+    .link-item h2 {
+        font-size: 1.2em; /* 20px */
+    }
+
+    .link-item p {
+        font-size: 0.9em; /* 14px */
+    }
 }
