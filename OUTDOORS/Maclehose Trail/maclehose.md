@@ -1,25 +1,4 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<style>
-  /* 设置整个页面的样式 */
-  body {
-    margin: 10 auto;
-    padding: 100px;
-    font-family: Arial, sans-serif;
-  }
-  /* 设置中间内容区域的样式 */
-  .content {
-    width: 80%; /* 可以根据需要调整宽度 */
-    margin: 0 auto; /* 上下0，左右自动，实现水平居中 */
-    padding: 20px; /* 内边距 */
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* 可选的阴影效果 */
-    background-color: #fff; /* 背景颜色 */
-  }
-</style>
-</head>
+
 # MacLehose Trail
 -Hongkong, China
 
