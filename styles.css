@@ -3,18 +3,23 @@ body, html {
     margin: 0;
     font-family: Arial, sans-serif;
     color: white;
-    background: url('Background.jpg') no-repeat center center fixed;
+    background: url('your-background-image.jpg') no-repeat center center fixed;
     background-size: cover;
     display: flex;
+    flex-direction: column;
     justify-content: center;
-    align-items: flex-end;
-    padding-bottom: 50px; /* Adjust the padding to position the introduction */
+    align-items: center;
+    text-align: center;
 }
 
 .container {
     width: 100%;
     max-width: 1200px; /* Maximum width of the container */
     padding: 20px;
+}
+
+.introduction {
+    margin-bottom: 50px; /* Space between introduction and links */
 }
 
 .introduction h1 {
@@ -30,7 +35,7 @@ body, html {
 
 .links {
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
     width: 100%;
     margin-top: 40px; /* Space between introduction and links */
 }
@@ -38,8 +43,7 @@ body, html {
 .link-item {
     background: rgba(255, 255, 255, 0.2);
     padding: 20px;
-    width: 45%; /* Each link item takes up 45% of the width */
-    margin: 5px;
+    margin: 0 10px;
     text-align: center;
     border-radius: 5px;
     color: white;
@@ -58,9 +62,8 @@ body, html {
     background: rgba(255, 255, 255, 0.5);
 }
 
-.read-more {
-    font-weight: bold;
-    font-size: 0.8em; /* 12px */
+.link-arrow {
+    font-size: 1.2em; /* 24px */
     margin-top: 10px;
 }
 
