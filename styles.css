@@ -2,90 +2,80 @@ body, html {
     height: 100%;
     margin: 0;
     font-family: Arial, sans-serif;
-    color: white;
+    color: #fff; /* 设置字体颜色为白色 */
+}
+
+.background-image {
+    /* 替换为您的背景图片 */
     background: url('Background.jpg') no-repeat center center fixed;
     background-size: cover;
+    height: 100%;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    text-align: center;
-}
-
-.container {
-    width: 100%;
-    max-width: 1200px; /* Maximum width of the container */
     padding: 20px;
+    box-sizing: border-box;
 }
 
-.introduction {
-    margin-bottom: 50px; /* Space between introduction and links */
+.content {
+    width: 100%;
+    max-width: 1200px;
+    text-align: center; /* 居中文本 */
 }
 
 .introduction h1 {
-    font-size: 2.5em; /* 40px */
-    font-weight: bold;
+    font-size: 3em;
     margin-bottom: 0.5em;
 }
 
 .introduction p {
-    font-size: 1em; /* 16px */
-    margin-bottom: 0.5em;
+    font-size: 2em;
+    margin-bottom: 1em;
 }
 
 .links {
     display: flex;
     justify-content: center;
     width: 100%;
-    margin-top: 40px; /* Space between introduction and links */
+    margin-top: 20px;
 }
 
 .link-item {
-    background: rgba(255, 255, 255, 0.2);
-    padding: 20px;
-    margin: 0 10px;
-    text-align: center;
-    border-radius: 5px;
-    color: white;
-    text-decoration: none;
+    font-size: 1.5em;
     font-weight: bold;
-    text-transform: uppercase;
-    font-size: 1.5em; /* 24px */
+    text-decoration: none;
+    color: #fff; /* 设置链接颜色为白色 */
     display: flex;
-    flex-direction: column;
     align-items: center;
-    justify-content: center;
-    transition: background 0.3s ease;
-    min-width: 150px; /* Minimum width for link items */
-    max-width: 300px; /* Maximum width for link items */
+    margin: 0 80px; /* 链接之间的间距 */
 }
 
-.link-item:hover {
-    background: rgba(255, 255, 255, 0.5);
+.link-item h2 {
+    margin-right: 10px;
 }
 
 .link-arrow {
-    font-size: 0.8em; /* 12px */
-    margin-top: 10px;
+    font-size: 0.8em;
+    margin-left: 5px;
 }
 
-/* Media query for smaller screens */
+/* 响应式设计 */
 @media (max-width: 768px) {
     .introduction h1 {
-        font-size: 2em; /* 32px */
+        font-size: 2em;
     }
 
     .introduction p {
-        font-size: 0.9em; /* 14px */
-    }
-
-    .links {
-        flex-direction: column;
-        align-items: center;
+        font-size: 1em;
     }
 
     .link-item {
-        width: 80%; /* Each link item takes up 80% of the width on small screens */
-        margin: 10px 0;
+        font-size: 1.2em;
+        margin: 0 10px; /* 在小屏幕上减少链接之间的间距 */
+    }
+
+    .link-arrow {
+        font-size: 0.7em;
     }
 }

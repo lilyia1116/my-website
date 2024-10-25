@@ -1,0 +1,19 @@
+/* style.css 文件 */
+body {
+    background-image: url('Background.jpg');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    margin: 0;
+    padding: 0;
+}
+
+.article-container {
+    max-width: 800px;
+    background-color: white;
+    opacity: 0.9;
+    margin: 2em auto;
+    padding: 2em;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
