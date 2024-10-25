@@ -1,66 +1,62 @@
-.main {
-    position: relative;
-    min-height: calc(100vh - var(--header-height) - var(--footer-height));
-    max-width: calc(var(--main-width) + var(--gap) * 2);
-    margin: auto;
-    padding: var(--gap);
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    transition: background-color 0.3s, color 0.3s;
 }
 
-.page-header h1 {
-    font-size: 40px;
+.navbar {
+    background-color: #333; /* 夜间模式背景色 */
+    color: white; /* 夜间模式字体色 */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
 }
 
-.pagination {
+.navbar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
     display: flex;
 }
 
-.pagination a {
-    color: var(--theme);
-    font-size: 13px;
-    line-height: 36px;
-    background: var(--primary);
-    border-radius: calc(36px / 2);
-    padding: 0 16px;
+.navbar li {
+    margin-right: 20px;
 }
 
-.pagination .next {
-    margin-inline-start: auto;
+.navbar a {
+    color: white; /* 夜间模式链接色 */
+    text-decoration: none;
+    transition: color 0.3s;
 }
 
-
-.social-icons a {
-    display: inline-flex;
-    padding: 10px;
+.navbar a:hover {
+    color: #ddd; /* 链接悬停时的颜色 */
 }
 
-.social-icons a svg {
-    height: 26px;
-    width: 26px;
+button {
+    background-color: #555; /* 按钮背景色 */
+    color: white; /* 按钮字体色 */
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
 }
 
-code {
-    direction: ltr;
+button:hover {
+    background-color: #777; /* 按钮悬停时的颜色 */
 }
 
-div.highlight,
-pre {
-    position: relative;
+/* 白天模式样式 */
+body.light {
+    background-color: white;
+    color: black;
 }
 
-.copy-code {
-    display: none;
-    position: absolute;
-    top: 4px;
-    right: 4px;
-    color: rgba(255, 255, 255, 0.8);
-    background: rgba(78, 78, 78, 0.8);
-    border-radius: var(--radius);
-    padding: 0 5px;
-    font-size: 14px;
-    user-select: none;
+body.light .navbar {
+    background-color: #f2f2f2; /* 白天模式背景色 */
+    color: black; /* 白天模式字体色 */
 }
 
-div.highlight:hover .copy-code,
-pre:hover .copy-code {
-    display: block;
+body.light .navbar a {
+    color: black; /* 白天模式链接色 */
 }
