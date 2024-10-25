@@ -56,6 +56,8 @@ body, html {
     align-items: center;
     justify-content: center;
     transition: background 0.3s ease;
+    min-width: 150px; /* Minimum width for link items */
+    max-width: 300px; /* Maximum width for link items */
 }
 
 .link-item:hover {
@@ -63,7 +65,7 @@ body, html {
 }
 
 .link-arrow {
-    font-size: 1.2em; /* 24px */
+    font-size: 0.8em; /* 12px */
     margin-top: 10px;
 }
 

@@ -1,0 +1,61 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: #f4f4f4;
+    color: #333;
+}
+
+.container {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+}
+
+h1 {
+    text-align: center;
+    font-size: 2.5em;
+    margin-bottom: 20px;
+}
+
+.ideas-list {
+    list-style: none;
+    padding: 0;
+}
+
+.ideas-list li {
+    background: white;
+    border: 1px solid #ddd;
+    margin-bottom: 20px;
+    padding: 15px;
+    border-radius: 5px;
+    transition: box-shadow 0.3s ease;
+}
+
+.ideas-list li:hover {
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+.idea-item {
+    display: flex;
+    flex-direction: column;
+}
+
+.idea-item h2 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+}
+
+.idea-item .idea-date {
+    font-size: 0.9em;
+    color: #666;
+    margin-bottom: 10px;
+}
+
+.idea-item .idea-description {
+    font-size: 1em;
+    margin-bottom: 0;
+    line-height: 1.6;
+}
+
+/* Add media queries for responsiveness if needed */
