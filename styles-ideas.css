@@ -11,6 +11,46 @@ body, html {
     align-items: center;
     text-align: center;
 }
+body {
+    color: white; /* 全局字体颜色设为白色 */
+    background-color: #333; /* 添加深色背景以对比白色字体，便于阅读 */
+    font-family: "Times New Roman", Times, serif; /* 设置 Times New Roman 字体 */
+}
+
+.container {
+    cursor: pointer;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.container:hover {
+    transform: scale(1.05);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+h2, p {
+    text-shadow: 4px 4px 8px rgba(0, 0, 0, 0.9); /* 添加阴影效果 */
+}
+
+a.ideas-item {
+    color: white; /* 链接颜色设为白色 */
+    text-decoration: none; /* 可选：去掉下划线 */
+}
+
+a.ideas-item:hover {
+    color: #000; /* 可选：设置鼠标悬停效果的颜色 */
+    text-decoration: underline; /* 添加下划线效果 */
+}
+
+/* 如果你有其他样式，比如容器或列表项的颜色，也可以设置 */
+.container {
+    padding: 20px;
+}
+
+.ideas-list {
+    list-style: none;
+    padding: 0;
+}
+
 
 .container {
     max-width: 800px; /* 限制容器的最大宽度 */

@@ -1,12 +1,11 @@
 body, html {
     height: 100%;
     margin: 0;
-    font-family: Arial, sans-serif;
+    font-family: "Times New Roman", Times, serif; /* 设置 Times New Roman 字体 */
     color: #fff; /* 设置字体颜色为白色 */
 }
 
 .background-image {
-    /* 替换为您的背景图片 */
     background: url('Background-1.jpg') no-repeat center center fixed;
     background-size: cover;
     height: 100%;
@@ -21,7 +20,7 @@ body, html {
 .content {
     width: 100%;
     max-width: 1200px;
-    text-align: center; /* 居中文本 */
+    text-align: center;
 }
 
 .introduction h1 {
@@ -29,9 +28,8 @@ body, html {
     margin-bottom: 0.5em;
 }
 
-.introduction p {
-    font-size: 2em;
-    margin-bottom: 1em;
+h1, h2 {
+    text-shadow: 4px 4px 8px rgba(0, 0, 0, 0.9); /* 添加阴影效果 */
 }
 
 .links {
@@ -45,14 +43,25 @@ body, html {
     font-size: 1.5em;
     font-weight: bold;
     text-decoration: none;
-    color: #fff; /* 设置链接颜色为白色 */
+    color: #fff;
     display: flex;
     align-items: center;
-    margin: 0 80px; /* 链接之间的间距 */
+    margin: 0 80px;
 }
 
+.link-item:hover {
+    color: #000; /* 鼠标悬停时字体颜色变为黑色 */
+    text-decoration: underline; /* 添加下划线 */
+}
+
+.link-item {
+    cursor: pointer;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+
 .link-item h2 {
-    margin-right: 10px;
+    margin-right: 20px;
 }
 
 .link-arrow {
@@ -72,7 +81,7 @@ body, html {
 
     .link-item {
         font-size: 1.2em;
-        margin: 0 10px; /* 在小屏幕上减少链接之间的间距 */
+        margin: 0 10px;
     }
 
     .link-arrow {
