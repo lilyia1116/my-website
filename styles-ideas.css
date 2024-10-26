@@ -24,11 +24,12 @@ body {
 
 .container:hover {
     transform: scale(1.05);
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
 }
 
 h2, p {
-    text-shadow: 4px 4px 8px rgba(0, 0, 0, 0.9); /* 添加阴影效果 */
+    font-weight: bold; /* 加粗字体 */
+    text-shadow: 4px 4px 13px rgba(0, 0, 0, 1.2); /* 添加阴影效果 */
 }
 
 a.ideas-item {
@@ -61,6 +62,7 @@ a.ideas-item:hover {
 
 h1 {
     text-align: center;
+    font-weight: bold; /* 加粗字体 */
     font-size: 2.5em;
     margin-bottom: 20px;
 }

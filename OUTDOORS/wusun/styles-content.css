@@ -1,0 +1,40 @@
+body {
+    background-image: url('Background-1.jpg'); /* 替换为实际图片路径 */
+    background-size: cover; /* 使背景图覆盖整个页面 */
+    background-attachment: fixed; /* 使背景图固定 */
+    background-position: center; /* 背景图居中 */
+    font-family: 'Times New Roman', serif;
+    color: darkblue; /* 深蓝色字体 */
+    margin: 0; /* 移除默认边距 */
+}
+
+/* 设置文章区域样式 */
+.container {
+    max-width: 800px; /* 限制内容区域宽度 */
+    margin: 20px auto; /* 使容器在页面中居中，并给上方增加间距 */
+    background-color: rgba(255, 255, 255, 0.8); /* 半透明背景 */
+    padding: 20px; /* 内边距 */
+    color: black; /* 黑色文字 */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3); /* 阴影效果 */
+}
+
+/* 针对图片的样式 */
+img {
+    max-height: 500px; /* 限制图片的最大高度 */
+    width: auto; /* 宽度自适应 */
+    height: auto; /* 高度自适应 */
+    object-fit: cover; /* 保持纵横比并填充区域 */
+    box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.5); /* 图片阴影 */
+    border-radius: 8px; /* 圆角效果 */
+}
+
+/* 调整文字样式 */
+ p {
+    font-size: 16px; /* 增大文字大小 */
+    line-height: 1.3; /* 增大行间距 */
+    margin: 0; /* 移除默认的段落外边距 */
+    text-shadow: 1px 1px 2px rgba(255, 255, 255, 0.4), /* 白色阴影 */
+    1px 1px 2px rgba(0, 0, 0, 0.3);  /* 黑色阴影 */
+
+
+}

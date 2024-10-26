@@ -29,7 +29,7 @@ body, html {
 }
 
 h1, h2 {
-    text-shadow: 4px 4px 8px rgba(0, 0, 0, 0.9); /* 添加阴影效果 */
+    text-shadow: 4px 4px 13px rgba(0, 0, 0, 1.0); /* 添加阴影效果 */
 }
 
 .links {
