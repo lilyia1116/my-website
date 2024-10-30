@@ -112,7 +112,7 @@ We finally reached our destination, and the scenery along the way was beautiful.
 
 <center><img src="K22.jpg" alt="First Morning at the Customs" style="width:50%;"/></center>
 
-*<center>*Climbing uphill under the blazing sun was exhausting and super hot. We switched to flip-flops. Isn’t that hilarious? Hahaha!*</center>*
+*<center>*This was an unexpected encounter on the road from Qiungkushtai Village to the starting point of the Wusun Ancient Trail—a very cute and interesting sign with a distinct Chinese characte!haha！*</center>*
 
 # ending
 The three-day, two-night heavy-load trek around Kalajun Grassland was exhausting and hot, but incredibly joyful. We witnessed the starry sky over the grasslands, snow-capped mountains, and grazing cattle and sheep, all while experiencing the warmth and kindness of the Kazakh people. Every memory of being invited by my Kazakh friends is unforgettable. I used to boast to my friends about the activities of the Kazakh people depicted in the drama "To the wonder" and now I’ve experienced them myself. Life is meant for experiences, and I truly lived it on the Kalajun Grassland!
