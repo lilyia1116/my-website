@@ -1,0 +1,18 @@
+
+# To Lilyia X in Ten Years
+
+Hi, Lilyia. How are you doing at 31? Are you happy? Do you still love hiking? Do you enjoy running in nature? Have you climbed Mount Everest yet?
+
+Today is November 4, 2024, and there are only 12 days left until you turn 21.
+
+Happy early birthday! And congratulations again on successfully getting into grad school in 2024. After countless decisions and hesitations, you decided to spend the years 22-24 in Beijing studying finance. I know this is a future that 20-year-old you would never have chosen. Fate can be quite mischievous sometimes. Anyway, just go with it; finding local optima is already quite satisfying.
+
+I also want to congratulate you on the trails you hiked during the year you were 20-21: the MacLehose Trail, the Great and Small Wutai, Kalajun, the Wusun Ancient Road, and many others. After all, I remember your two wishes at 20: one was the MacLehose Trail, and the other was Mount Kailash. You didn’t complete Kailash, so let that be a goal for 21-year-old you; it will eventually be achieved. This year, the biggest change in you is that you've become braver and more confident. I know you've gone through a lot this year: you faced fear while hiking the MacLehose Trail at night, yet you weren’t attacked when you encountered wild boars alone; you fell while descending the Small Wutai, and your ankle and knee hurt badly, indirectly causing subsequent knee injuries; you suffered severe sunburn while hiking Kalajun, which further harmed your already unhealed knee; while trekking the Wusun Ancient Road, you were thankful multiple times for not falling to your death after climbing steep cliffs, for not being struck by lightning during a thunderstorm at the last campsite, and for not being attacked by bears while camping the next day. As I type these words, I feel a bit of fear; thank God I’m alive and happy, even though my knee is injured. On the other hand, these experiences are gifts from nature. Enduring through difficulties has made you stronger; your resilience and willpower have been fully tested through challenging adventures.
+
+Tonight, you watched "Mountain Queen" by Lhakpa Sherpa and "Alpinist" by Marc-André Leclerc, and you were greatly inspired. Although 20-year-old you has no desire to climb snow-capped mountains, maybe one day an unexpected moment will spark your interest, and you’ll take steps toward 5000 meters, 6000 meters, 7000 meters, or even Mount Everest. No one knows what will happen or what the future will hold.
+
+But it doesn’t matter; 21-year-old you wants to tell 31-year-old you: just be happy in the present. As for your career, material conditions, social status, and all those external factors, they don’t matter as long as you are content. This is the highest expectation that 21-year-old you has for 31-year-old you. At 31, maybe you’re in Beijing, maybe abroad, perhaps you just enjoy lounging on the couch, or still love running into the mountains, maybe you’ve already climbed Everest, or maybe climbing five flights of stairs is a challenge. You could have developed a fondness for women, maybe you choose to have a child through sperm donation, perhaps you’re married with kids, or maybe you choose to live a life of solitude. Your only goal is to be happy in the moment; the means are unimportant.
+
+21-year-old you still loves hiking and wants to explore many trails. Perhaps in 2025, you’ll go on an exchange to Europe, hiking the Camino de Santiago, circling Mont Blanc, or even summiting Kilimanjaro—these are all possibilities, and they bring you joy and satisfaction.
+
+I hope 31-year-old you is just as happy. Don’t let societal standards bind you; just be yourself. Always be confident, and always shine bright.
