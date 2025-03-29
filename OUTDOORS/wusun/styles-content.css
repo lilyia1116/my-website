@@ -1,5 +1,5 @@
 body {
-    background-image: url('Background-1.jpg'); /* 替换为实际图片路径 */
+    background-image: url('Background.jpg'); /* 替换为实际图片路径 */
     background-size: cover; /* 使背景图覆盖整个页面 */
     background-attachment: fixed; /* 使背景图固定 */
     background-position: center; /* 背景图居中 */
